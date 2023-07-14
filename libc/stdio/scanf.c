@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <stddef.h>
 #include <kernel/shell.h>
-#include <kernel/tty.h>
+#include <kernel/drv/tty.h>
 void scanf_int(int* value);
 void scanf_string(char* str);
 void scanf_float(float* fvalue);

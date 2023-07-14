@@ -2,7 +2,6 @@
 #include <stdarg.h>
 #include <stdint.h>
 #include <stddef.h>
-#include <kernel/tty.h>
 
 void itoa(int32_t value, char* buffer, int base) {
     if (value == 0) {

@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <stddef.h>
 #include <string.h>
-#include <kernel/tty.h>
+#include <kernel/drv/tty.h>
 #include <ctype.h>
 
 int printf(const char* format, ...) {

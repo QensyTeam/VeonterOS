@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <kernel/shell.h>
-#include <kernel/tty.h>
+#include <kernel/drv/tty.h>
 /*
 int main() {
     printf("Welcome! This is a simple calculator.\n");

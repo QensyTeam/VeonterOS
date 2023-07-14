@@ -2,7 +2,6 @@
 #include <stdarg.h>
 #include <stdint.h>
 #include <stddef.h>
-#include <kernel/tty.h>
 
 double pow(double base, double exponent) {
     if (exponent == 0.0) {

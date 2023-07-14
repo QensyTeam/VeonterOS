@@ -1,0 +1,22 @@
+{
+    "files.associations": {
+        "hal.h": "c",
+        "pic.h": "c",
+        "idt.h": "c",
+        "panic.h": "c",
+        "stdio.h": "c",
+        "tty.h": "c",
+        "timer.h": "c",
+        "ports.h": "c",
+        "stdint.h": "c",
+        "isr.h": "c",
+        "stdlib.h": "c",
+        "keyboard.h": "c",
+        "shell.h": "c",
+        "multiboot.h": "c",
+        "vga.h": "c",
+        "ctype.h": "c",
+        "stdarg.h": "c",
+        "gdt.h": "c"
+    }
+}

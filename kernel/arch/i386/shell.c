@@ -1,8 +1,8 @@
 #include <kernel/shell.h>
-#include <kernel/tty.h>
+#include <kernel/drv/tty.h>
 #include "vga.h"
-#include <kernel/ports.h>
-#include <kernel/keyboard.h>
+#include <kernel/sys/ports.h>
+#include <kernel/drv/keyboard.h>
 #include <stdio.h>
 #include <stdarg.h>
 #include <stdint.h>

@@ -1,14 +1,15 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdint.h>
-#include <kernel/tty.h>
-#include <kernel/gdt.h>
-#include <kernel/idt.h>
-#include <kernel/ports.h>
-#include <kernel/pic.h>
-#include <kernel/pit.h>
+#include <kernel/drv/tty.h>
+#include <kernel/sys/gdt.h>
+#include <kernel/sys/idt.h>
+#include <kernel/sys/ports.h>
+#include <kernel/sys/pic.h>
+#include <kernel/drv/timer.h>
+#include <kernel/drv/beeper.h>
 #include "../arch/i386/vga.h"
-#include <kernel/keyboard.h>
+#include <kernel/drv/keyboard.h>
 #include <kernel/shell.h>
 #include <kernel/multiboot.h>
 #include <kernel/hal.h>
@@ -18,8 +19,8 @@ void kernel_early(__attribute__((unused)) multiboot_info_t* mbd, __attribute__((
     terminal_initialize(); 
     init_hal(mbd);
     terminal_startscreen();
+    beeperPlay(500);
     printf("Use the 'help' command to view help.\n");
-    test();
     shell_run();
     
 }

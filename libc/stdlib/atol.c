@@ -2,7 +2,6 @@
 #include <stdarg.h>
 #include <stdint.h>
 #include <stddef.h>
-#include <kernel/tty.h>
 
 long atol(const char* str) {
     long result = 0;

@@ -2,7 +2,6 @@
 #include <stdarg.h>
 #include <stdint.h>
 #include <stddef.h>
-#include <kernel/tty.h>
 
 int atoi(const char* str) {
     int result = 0;

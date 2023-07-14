@@ -4,7 +4,6 @@
 #include <stddef.h>
 #include <stdlib.h>
 #include <math.h>
-#include <kernel/tty.h>
 #include <ctype.h>
 
 double atof(const char *str) {
